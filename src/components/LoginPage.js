@@ -4,7 +4,7 @@ import {startLogin} from '../actions/auth'
 
 
 export const LoginPage = ({startLogin}) =>(
-    <div>
+    <div className="box-layout">
         <h1>Please login</h1>
         <button onClick={startLogin}>Login</button>
     </div>
